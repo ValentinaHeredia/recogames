@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(../imagenes/fondo.png);
+    background-size: 100;
+}
+
+/*css de la navbar*/
+.bg-violet{
+    background-color: #560770;
+    color: #e51db6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;    
+}
+
+.logo{
+    width: 70px;
+}
+
+/*colores*/
+
+.bg-darkviolet{
+    background-color: #560770;
+}
+.titulos{
+    color: #e51db6;
+    text-align: center;
+    background-color: #200b3e;
+}
+.subtitulos{
+    color:#ec8dff;
+    font-size: 1.5rem;
+}
+
+.encabezado__img{
+    width: 100%;
+}
+
+/*=====grids=====*/
+
+.grid{
+    width: 100%;
+    display: grid;
+    padding: 10%;
+}
+
+.column-row-start-end{
+    grid-template-columns:repeat(3,200px);
+    height: 500px;
+}
+
+.column-row-start-end-item{
+     grid-column: 2/3;
+     grid-row: 1/3;
+ }
+
+ .justify-content{
+    grid-template-columns: repeat(3, 300px);
+    height: 500px;
+    justify-content:space-around
+}   
+
+    .justify-content div{
+        padding: 100px;
+        text-align: center;
+    }
+
+.aling-content{
+    align-content:space-around
+}
+
+.grid-template-columns-row{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60px 40px 60px;
+    row-gap: 150px;
+    column-gap: 100px;
+}
