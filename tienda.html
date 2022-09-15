@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imagenes/favicon.jpg" type="favicon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--mi CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Decogames</title>
+  </head>
+  <body>
+    <!--inicia navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-violet nav-font sticky-top">
+        <div class="container-fluid .bg-violet">
+          <a href="index.html">     
+          <img class="logo" src="imagenes/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Juegos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="juegos/drp.html">Danganronpa</a></li>
+                  <li><a class="dropdown-item" href="juegos/fnaf.html">Five night at freddy's</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.html">nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="laboratorio.html">laboratorio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tienda.html">tienda</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--termina navbar-->
+
+    <header>
+      <img class="encabezado__img" src="imagenes/danganronpathh.jpg" alt="encabezado">
+    </header>
+
+    <main>
+      <h1 class="titulos"><strong>Recomendados de la semana</strong></h1>
+      
+      <div class="grid column-row-start-end justify-content aling-content grid-template-columns-row">
+        <div class="subtitulos bg-darkviolet column-row-start-end-item">
+            <img src="imagenes/Among Us.jpg" alt="among us">
+        </div>
+        <div class="subtitulos bg-darkviolet">
+          <img src="imagenes/minecraft.png" alt="">
+        </div>
+        <div class="subtitulos bg-darkviolet">
+          <img src="imagenes/fallguys.jpg" alt="">
+        </div>
+      </div>
+
+    </main>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
