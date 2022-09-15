@@ -55,21 +55,41 @@
     </header>
 
     <main>
-      <h1 class="titulos"><strong>Recomendados de la semana</strong></h1>
-      
-      <div class="grid column-row-start-end justify-content aling-content grid-template-columns-row">
-        <div class="subtitulos bg-darkviolet column-row-start-end-item">
-            <img src="imagenes/Among Us.jpg" alt="among us">
-        </div>
-        <div class="subtitulos bg-darkviolet">
-          <img src="imagenes/minecraft.png" alt="">
-        </div>
-        <div class="subtitulos bg-darkviolet">
-          <img src="imagenes/fallguys.jpg" alt="">
-        </div>
+      <div class="container-fluid">
+          <h2 class="text-sm-start text-md-center text-lg-center titulos">Recomendaciones de la semana</h2>
+          <div>
+              <article class="col-md-6 col-lg-3 mb-3 bg-darkviolet">
+                  <div class="juegos__recomendados">
+                      <img src="imagenes/minecraft.png" class="card-img-top w-100" alt="minecraft">
+                      <div class="">
+                        <h5 class="subtitulo">Minecraft</h5>
+                        <p class="texto">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </article>
+             
+              <article class="col-md-6 col-lg-3 mb-3 bg-darkviolet">
+                  <div class="juegos__recomendados">
+                      <img src="imagenes/fallguys.jpg" class="card-img-top w-100" alt="fall guys">
+                      <div>
+                        <h5 class="subtitulo">Fall guys</h5>
+                        <p class="texto">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </article>
+              
+              <article class="col-md-6 col-lg-3 mb-3 bg-darkviolet">
+                  <div class="juegos__recomendados">
+                      <img src="imagenes/Among Us.jpg" class="card-img-top w-100" alt="among us">
+                      <div class="">
+                        <h5 class="subtitulo">Among us</h5>
+                        <p class="texto">Some quick exampletext to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </article>
+          </div>
       </div>
-
-    </main>
+  </main>
 
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

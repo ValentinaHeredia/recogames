@@ -31,13 +31,27 @@ body{
     text-align: center;
     background-color: #200b3e;
 }
-.subtitulos{
-    color:#ec8dff;
+.subtitulo{
+    color: #ec8dff;
+    text-align: center;
     font-size: 1.5rem;
 }
 
 .encabezado__img{
     width: 100%;
+}
+
+.juegos__recomendados{
+    height: auto;
+    margin: 50px auto;
+    padding: 40px 50px;
+    border: solid #7a0f9e 2px;
+}
+
+.texto{
+    color: #ec8dff;
+    text-align: center;
+
 }
 
 /*=====grids=====*/
